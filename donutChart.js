@@ -24,7 +24,7 @@ let data = d3.pie()
             })(all_languages)
 // arc segments
 let segments = d3.arc()
-                  .innerRadius(150)
+                  .innerRadius(150) // by putting 150, it will make the donut chart
                   .outerRadius(200)
                   .padAngle(0.05)
                   .padRadius(50);
